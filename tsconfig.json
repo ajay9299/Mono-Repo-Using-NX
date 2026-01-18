@@ -2,5 +2,51 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./notification-gateway-e2e"
+    },
+    {
+      "path": "./engagement-service-e2e"
+    },
+    {
+      "path": "./notification-gateway"
+    },
+    {
+      "path": "./engagement-service"
+    },
+    {
+      "path": "./reward-service-e2e"
+    },
+    {
+      "path": "./video-service-e2e"
+    },
+    {
+      "path": "./auth-service-e2e"
+    },
+    {
+      "path": "./reward-service"
+    },
+    {
+      "path": "./shared-events"
+    },
+    {
+      "path": "./video-service"
+    },
+    {
+      "path": "./auth-service"
+    },
+    {
+      "path": "./frontend-e2e"
+    },
+    {
+      "path": "./aws-clients"
+    },
+    {
+      "path": "./shared-dto"
+    },
+    {
+      "path": "./frontend"
+    }
+  ]
 }
