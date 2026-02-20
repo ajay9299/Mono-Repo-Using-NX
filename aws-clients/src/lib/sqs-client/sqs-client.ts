@@ -23,11 +23,12 @@ export class SqsConsumer {
         QueueUrl: queueUrl,
         MaxNumberOfMessages: 5,
         WaitTimeSeconds: 20,
+        VisibilityTimeout:5
       }),
     );
   }
 
-  
+
   async delete(queueUrl: string, receiptHandle: string) {
     return this.client.send(
       new DeleteMessageCommand({

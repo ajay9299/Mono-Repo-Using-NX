@@ -47,6 +47,9 @@
     },
     {
       "path": "./frontend"
+    },
+    {
+      "path": "./shared-redis"
     }
   ]
 }

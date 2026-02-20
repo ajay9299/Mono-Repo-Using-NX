@@ -21,7 +21,8 @@
     "paths": {
       "@org/shared-dto": ["shared-dto/src/index.ts"],
       "@org/shared-events": ["shared-events/src/index.ts"],
-      "@org/aws-clients": ["aws-clients/src/index.ts"]
+      "@org/aws-clients": ["aws-clients/src/index.ts"],
+      "@org/shared-redis": ["shared-redis/src/index.ts"]
     }
   }
 }

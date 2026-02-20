@@ -43,6 +43,6 @@ export class RewardQueueConsumer implements OnModuleInit {
     }
 
     // 3. Delete message after success
-    await this.sqs.delete(this.queueUrl, message.ReceiptHandle);
+    // await this.sqs.delete(this.queueUrl, message.ReceiptHandle);
   }
 }
